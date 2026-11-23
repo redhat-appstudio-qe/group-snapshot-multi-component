@@ -9,6 +9,7 @@ WORKDIR /projects
 
 # Copy the content of the local src directory to the working directory
 COPY . .
+COPY LICENSE /licenses/LICENSE
 
 # Install any dependencies
 RUN \
